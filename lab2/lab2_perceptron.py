@@ -5,12 +5,12 @@ Created on Fri Feb 26 20:24:56 2021
 @author: AM4
 """
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import numpy as np
 
 
 # загружаем и подготавляваем данные
-df = pd.read_csv('/content/sample_data/data.csv')
+df = pd.read_csv('data.csv')
 
 df = df.iloc[np.random.permutation(len(df))]
 y = df.iloc[0:100, 4].values
