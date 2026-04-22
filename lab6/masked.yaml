@@ -1,0 +1,12 @@
+# Корневая директория датасета
+path: E:\нейронка 3 курс\Лабораторные2026\6_Image_detection\data2
+
+# Пути к папкам с изображениями (относительно 'path')
+train: images/train
+val: images/val
+test: images/test  
+
+# Классы
+names:
+  0: scooter
+  1: car
